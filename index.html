@@ -33,8 +33,15 @@
             margin:0 auto;
             margin-top: 15px;
         }
-
-        
+        .s-div-rvrs{
+            flex-direction: column-reverse;
+        }
+        .s-s-rvrs{
+            flex-direction: column-reverse;
+        }
+        .s-div-img{
+            width: 85%;
+        }
     }
 </style>
 
@@ -141,12 +148,12 @@
                     class="rounded-lg " />
 
                   <div class="">
-                    <div class="flex bg-white p-2 rounded-3xl  lg:w-40 w-[150px] lg:ml-0 mx-auto items-center justify-center lg:justify-between">
+                    <div class="flex bg-white p-2 rounded-3xl  lg:w-[135px] w-[150px] lg:ml-0 mx-auto items-center justify-center lg:justify-between">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                             <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                         </svg>
                           
-                        <h4 class="font-bold lg:text-2xl text-xl mr-1 ">About Us</h4>
+                        <h4 class="font-bold lg:text-xl text-xl mr-1 ">About Us</h4>
                     </div>
                     <h1 class="lg:text-5xl text-3xl font-black mt-4">We design thoughtful, liveable spaces</h1>
                     <p class="py-6 lg:text-gray-600 text-[#494949] font-semibold lg:mx-0 mx-8">The barn house captivates with its blend of rustic charm and 
@@ -182,11 +189,11 @@
             <div class="container mx-auto pb-10 pt-16 lg:px-10">
                 <!-- Writing part -->
             <div class="text-center pb-10">
-                <div class="flex bg-white p-2 rounded-3xl lg:w-56 w-48 mx-auto items-center gap-2">
+                <div class="flex bg-white p-2 rounded-3xl w-48 mx-auto items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                         <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                       </svg>                     
-                    <h4 class="font-bold lg:text-2xl text-xl ">How we works</h4>
+                    <h4 class="font-bold text-xl ">How we works</h4>
                 </div>
                 <h1 class="lg:text-5xl text-4xl font-black lg:mt-6 mt-4 mb-5">Our Works Process</h1>
                 <p class="lg:text-md text-lg mx-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
@@ -235,14 +242,14 @@
 
         <!-- OUR LETEST PORTFOLIO -->
         <section class=" lg:bg-white bg-[#f1f1f1] ">
-            <div class="container mx-auto pt-10">
+            <div class="container mx-auto lg:pt-10 pt- lg:pb-0 pb-10">
                 <!-- Writing part  -->
             <div class="text-center pb-10">
-                <div class="flex bg-[#acef5f4f] p-2 rounded-3xl lg:w-[340px] w-[240px] mx-auto items-center gap-2">
+                <div class="flex bg-[#acef5f4f] p-2 rounded-3xl lg:w-[290px] w-[240px] mx-auto items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                         <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                       </svg>                     
-                    <h4 class="font-bold lg:text-2xl ">Explore our Latest works</h4>
+                    <h4 class="font-bold lg:text-xl">Explore our Latest works</h4>
                 </div>
                 <h1 class="lg:text-5xl text-4xl font-black mt-6 mb-5">Our Latest Portfolio</h1>
                 <p class="mx-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents..</p>
@@ -269,18 +276,20 @@
                     <div class="border f-div-img bg-white p-4 rounded-xl"><img class="mx-auto" src="assets/img2.png" alt=""></div>
                 </div>
                 <!-- second div  -->
-                <div class="lg:flex lg:gap-4 justify-center">
+                <div class="flex s-div-rvrs lg:gap-4 justify-center">
                     <!-- duita mile akta div  -->
-                    <div class="lg:flex justify-center lg:gap-4 items-center lg:ml-16">
-                        <img class="w-[300px] border rounded-xl p-4" src="assets/img3.png" alt="">
+                    <div class="flex s-s-rvrs justify-center lg:w-5/5 w-[85%] mx-auto lg:gap-4 items-center lg:ml-16">
+                        <div class="">
+                            <img class="w-[570px] bg-white lg:mt-0 mt-5 border rounded-xl p-4" src="assets/img3.png" alt="">
+                        </div>
                         <div class="">
                             <!-- copy kore anlam  -->
-                            <div class="lg:flex items-center p-4 border rounded-xl w-5/5">
-                                <img class="w-[300px]" src="assets/img4.png" alt="">
+                            <div class="lg:flex bg-white items-center p-4 border lg:mt-0 mt-5 rounded-xl w-5/5">
+                                <img class="w-[330px]" src="assets/img4.png" alt="">
                                 <div class="ml-5">
-                                    <h4 class="text-xl font-extrabold mt-1">Comercial</h4>
+                                    <h4 class="text-xl font-extrabold mt-1 lg:pt-0 pt-3">Comercial</h4>
                                     <p class="text-gray-600 text-sm mt-5">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-                                    <div class="lg:flex lg:gap-2 mt-5">
+                                    <div class="flex gap-2 mt-5">
                                         <h2 class="font-black text-lg">View Details</h2>
                                         <div class="p-1 bg-[#ABEF5F] rounded-full">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
@@ -292,22 +301,23 @@
                             </div>
                         </div>
                     </div>
-                    <img class="lg:mr-16 w-[300px] border rounded-xl p-4" src="assets/img5.png" alt="">
+                    <img class="lg:mr-16 lg:w-[300px] w-[85%] mx-auto bg-white border rounded-xl p-4" src="assets/img5.png" alt="">
                 </div>
             </div>
             </div>
+            <img class="lg:hidden p-4 bg-white rounded-xl w-[85%] mx-auto relative bottom-4" src="assets/img5.png" alt="">
         </section>
 
         <!-- LETS DISCUSS NEXT PROJECTS -->
-        <section class=" mt-20 lets bg-no-repeat bg-cover lg:h-[700px] h-[900px]">
+        <section class=" lg:mt-14 mt-1 lets bg-no-repeat bg-cover lg:h-[700px] h-[900px]">
             <!-- writing part   -->
             <div class="container mx-auto pt-10">
                 <div class="text-center pb-10">
-                    <div class="flex bg-[#acef5f4f] p-2 rounded-3xl lg:w-[217px] w-[190px] mx-auto items-center gap-2">
+                    <div class="flex bg-[#acef5f4f] p-2 rounded-3xl w-[190px] mx-auto items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                             <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                           </svg>                     
-                        <h4 class="font-bold lg:text-2xl text-xl">Let’s Connect</h4>
+                        <h4 class="font-bold text-xl">Let’s Connect</h4>
                     </div>
                     <h1 class="lg:text-5xl text-4xl lg:font-black font-black mt-6 mb-5">Let’s Discuss Next Project</h1>
                     <p class="text-[#494949] font-medium mx-8">The barn house captivates with its blend of rustic charm and modern sophistication <br> featuring weathered wood, sleek metal accents.</p>
